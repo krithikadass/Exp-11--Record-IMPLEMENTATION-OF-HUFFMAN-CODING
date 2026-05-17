@@ -50,7 +50,7 @@ while len(nodes) > 1:
     new_node = [[left, right], left[1] + right[1]]
     nodes.append(new_node)
 
-# The final node is the Huffman tree
+
 huffman_tree = nodes[0]
 
 huffman_codes = {}
